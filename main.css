@@ -54,11 +54,24 @@ p {
 }
 
 #about-photo {
+	float: left;
 
+	padding: 2%;
+
+	margin: 30px;
+
+	border: 2cap;
+	border-color: red;
+	border-width: 3px;
+	border-style: solid;
 }
 
 #copyright {
+	color: red;
 
+	text-decoration: dashed;
+
+	size: 2px;
 }
 
 #section-about, #section-discography, #section-equipment {
@@ -66,5 +79,13 @@ p {
 }
 
 #text-intro {
-	
+	background-color: rgb(62, 59, 59);
+	color: red;
+
+	padding: 10px;
+
+	border: 1cm;
+	border-style: solid;
+	border-color: red;;
+	border-width: .15cap;
 }
